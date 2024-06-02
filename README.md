@@ -10,8 +10,8 @@ Pre-trained Models used:
 
 - ## Data Preparation: 
 
-Loaded the traffic sign images from the directory structure.
-Used ImageDataGenerator to rescale the images and split the data into training and validation sets.
+1. Loaded the traffic sign images from the directory structure.
+2. Used ImageDataGenerator to rescale the images and split the data into training and validation sets.
 
 - ## VGG16 Model: 
 
