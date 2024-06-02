@@ -15,21 +15,21 @@ Pre-trained Models used:
 
 - ## VGG16 Model: 
 
-Loaded the pre-trained VGG16 model without the top layer.
-Added a custom dense layer for classification.
-Compiled and trained the model.
-Saved the model and evaluated its performance, achieving high accuracy.
+1. Loaded the pre-trained VGG16 model without the top layer.
+2. Added a custom dense layer for classification.
+3. Compiled and trained the model.
+4. Saved the model and evaluated its performance, achieving high accuracy.
 
 - ## Xception Model: 
 
-Loaded the pre-trained Xception model.
-Added custom layers for classification.
-Compiled and trained the model with early stopping.
-Evaluated the model, achieving reasonable accuracy but lower than VGG16.
+1. Loaded the pre-trained Xception model.
+2. Added custom layers for classification.
+3. Compiled and trained the model with early stopping.
+4. Evaluated the model, achieving reasonable accuracy but lower than VGG16.
 
 - ## ResNet50 Model: 
 
-Loaded the pre-trained ResNet50 model.
-Added custom layers for classification.
-Compiled the model and trained the model.
-Evaluated the model, achieving reasonable accuracy but lower than VGG16.
+1. Loaded the pre-trained ResNet50 model.
+2. Added custom layers for classification.
+3. Compiled the model and trained the model.
+4. Evaluated the model, achieving reasonable accuracy but lower than VGG16.
