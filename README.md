@@ -8,26 +8,26 @@ Pre-trained Models used:
 - Xception
 - ResNet50
 
-- ** Data Preparation: **
+- ## Data Preparation: 
 
 Loaded the traffic sign images from the directory structure.
 Used ImageDataGenerator to rescale the images and split the data into training and validation sets.
 
-- ** VGG16 Model: **
+- ## VGG16 Model: 
 
 Loaded the pre-trained VGG16 model without the top layer.
 Added a custom dense layer for classification.
 Compiled and trained the model.
 Saved the model and evaluated its performance, achieving high accuracy.
 
-- ** Xception Model: **
+- ## Xception Model: 
 
 Loaded the pre-trained Xception model.
 Added custom layers for classification.
 Compiled and trained the model with early stopping.
 Evaluated the model, achieving reasonable accuracy but lower than VGG16.
 
-- ** ResNet50 Model: **
+- ## ResNet50 Model: 
 
 Loaded the pre-trained ResNet50 model.
 Added custom layers for classification.
