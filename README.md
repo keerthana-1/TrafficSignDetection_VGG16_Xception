@@ -27,7 +27,7 @@ Pre-trained Models used:
 3. Compiled and trained the model with early stopping.
 4. Evaluated the model, achieving reasonable accuracy but lower than VGG16.
 
-- ## ResNet50 Model: 
+## ResNet50 Model: 
 
 1. Loaded the pre-trained ResNet50 model.
 2. Added custom layers for classification.
